@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "watch": "tailwindcss -i css/tailwind.css -o css/tailwind-out.css --watch"
   },
   "keywords": [],
   "author": "",
