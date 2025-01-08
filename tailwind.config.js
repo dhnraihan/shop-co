@@ -2,7 +2,12 @@
 module.exports = {
   content: ["*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        serif: ["DM Serif Text", "serif"],
+        rubik: ["Rubik Vinyl", "cursive"],
+      },
+    },
   },
   plugins: [],
 }
